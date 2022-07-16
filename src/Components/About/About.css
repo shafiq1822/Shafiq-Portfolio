@@ -1,0 +1,94 @@
+section{
+    padding-top: 5rem;
+    background-color: rgb(245, 245, 245);
+    line-height: 2rem;
+}
+
+#about > h1 {
+    font-size: 36px;
+}
+
+.about__container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5%;
+    margin: 0 15rem;
+    padding-bottom: 120px;
+    font-size: 15px;
+}
+
+.about__content{
+    text-align: start;
+    margin-top: 4rem;
+}
+
+.about__content p{
+    margin-top: 2rem;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(81, 81, 81);
+}
+
+.about__content button{
+    margin-top: 30px;
+    padding: 20px 30px;
+    background: rgba(250,206,16,255);
+    border-radius: 7px;
+    transition: all .4s ease;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.skill__content{
+    text-align: start;
+    margin-top: 4rem;
+}
+
+.skills__btn {
+    margin-top: 2rem;
+}
+
+.skill__content button{
+    padding: 15px 30px;
+    margin: 5px;
+    background: rgba(250,206,16,255);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 14px;
+}
+
+.about__content button:hover{
+    transform: scale(1.07);
+}
+
+/* -----------------------------------------MEDIA QUERIES (MEDIUM DEVICES)-------------------------------------- */
+
+@media screen and (max-width: 1224px) {
+    section{
+        line-height: 2rem;
+    }
+
+   .about__container{
+       margin: 4rem 5rem;
+   }
+}
+
+/* -----------------------------------------MEDIA QUERIES (MEDIUM DEVICES)-------------------------------------- */
+
+@media screen and (max-width: 760px) {
+    .about__container{
+        grid-template-columns: 1fr;
+        margin: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 325px){
+    .skill__content button{
+        margin-left: 0;
+    }
+}
+
+

@@ -1,0 +1,85 @@
+#footer{
+    background: black;
+    padding-bottom: 5rem;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+}
+
+.footer__about{
+    margin-top: 1rem;
+    margin-right: 2rem;
+    color: white;
+    text-align: start;
+    width: 20rem;
+}
+
+.footer__about p{
+    font-size: 14px;
+}
+
+.footer__social-icons{
+    margin-top: 1rem;
+    text-align: start;
+    width: 10rem;
+    font-size: 15px;
+    color: white;
+    flex-wrap: nowrap;
+}
+
+.footer__social-icons a{
+    color: white;
+    transition: all .4s ease;
+}
+
+.footer__social-icons a:hover{
+    color: rgba(250,206,16,255);
+}
+
+.git1{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.linkedin1{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.netlify1{
+    font-size: 1.5rem;
+}
+
+.hr{
+    width: 85%;
+    height: 1px;
+    background: rgb(72, 71, 71);
+    margin: 20px auto;
+}
+
+.copyright{
+    color: white;
+    margin-bottom: 4rem;
+}
+
+.copyright p {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.copy{
+    color: white; 
+    font-size: 14px;
+    align-items: center;
+    margin: 10px 5px 0 0 ;
+}
+
+.footer__name{
+    text-decoration: underline;
+    font-size: 14px;
+}

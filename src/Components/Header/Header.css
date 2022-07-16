@@ -1,0 +1,152 @@
+#home{
+    background-image: url(../../images/unsplash-bg.jpg);
+    height: 115vh;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    width: 100%;
+    line-height: 3rem;
+}
+
+.header__content h1 {
+    padding-top: 8vh;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.name {
+    font-size: 50px;
+    text-align: center;
+    color: rgba(250,206,16,255);
+}
+
+.header__content h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#home button{
+    margin-top: 30px;
+    padding: 20px 30px;
+    border: 1px solid rgba(250,206,16,255);
+    background: transparent;
+    border-radius: 7px;
+    transition: all .4s ease;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+}
+.btn-1{
+    margin-right: 20px;
+    width: 150px;
+}
+
+.btn-2{
+    width: 150px;
+}
+
+#home button:hover{
+    background: rgba(250,206,16,255);
+    color: black;
+}
+
+.social__icons{
+    font-size:  20px;
+    margin-top: 30px;
+}
+
+.git{
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 26px;
+    color: white;
+    transition: all .4s ease;
+}
+
+.git:hover{
+    color: rgba(250,206,16,255);
+}
+
+.linkedin{
+    color: white;
+    font-size: 26px;
+    margin-right: 20px;
+    transition: all .4s ease;
+}
+
+.linkedin:hover{
+    color: rgba(250,206,16,255);
+}
+
+.netlify{
+    color: white;
+    font-size: 26px;
+    transition: all .4s ease;
+}
+
+.netlify:hover{
+    color: rgba(250,206,16,255);   
+}
+
+.mouse{
+    width: 25px;
+    height: 50px;
+    border: 2px solid rgba(250,206,16,255);
+    border-radius: 20px;
+    display: flex;
+    margin: 3rem auto;
+}
+
+.mouse-wheel{
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: auto;
+    animation: move-wheel 1.5s linear infinite;
+}
+
+@keyframes move-wheel{
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(1rem);
+    }
+}
+
+/* ----------------Small Devices--------------- */
+
+@media screen and (max-width: 535px){
+    
+    .name{
+        font-size: 35px;
+    }
+    
+    span{
+        font-size: 40px;
+        line-height: normal;
+    }
+}
+
+/* ------------------Extra small devices ------------------*/
+
+@media screen and (max-width: 375px){
+    .mouse{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 325px){
+    .header__content h1{
+        padding-top: 0;
+    }
+    .btn-1{
+        margin-right: 0;
+    }
+}

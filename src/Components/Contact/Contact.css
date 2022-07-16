@@ -1,0 +1,90 @@
+#contact {
+    position: relative;
+    padding-top: 5rem;
+    background-image: url(../../images/white-paper-texture.jpg);
+    background-size: cover;
+    padding-bottom: 7rem;
+}
+
+.contact__container{
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    max-width: 600px;
+    margin: 4rem auto;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: start;
+}
+
+input[type=text]{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(227, 227, 227);
+    font-size: 15px;
+    border: none;
+}
+
+input[type=submit]{
+    padding: 1.5rem 3rem;
+    border-radius: 5px;
+    background-color: rgba(250,206,16,255);
+    color: black;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all .4s ease;
+}
+
+input[type=submit]:hover{
+    transform: scale(1.05);
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: rgb(227, 227, 227);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    resize: none;
+    font-size: 16px;
+    font-family: poppins;
+}
+
+::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------------------------------- Medium Screen Devices-------------------------------- */
+
+@media screen and (max-width: 660px) {
+    .contact__container {
+        max-width: 80%;
+    }
+
+    input[type=submit]{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+    .contact__container{
+        max-width: 90%;
+    }
+}
+
+/* ---------------------Extra small devices ---------------------*/
+
+@media screen and (max-width: 325px){
+    .contact__container{
+        padding: 20px 15px;
+    }
+}

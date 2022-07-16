@@ -1,0 +1,42 @@
+nav{
+    background: rgba(170, 169, 169, 0.3);
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+    transition: all .4s ;
+}
+
+nav a:hover{
+    background: #000000;
+    color: rgb(204, 203, 203);
+}
+
+nav ul li a.active{
+    color: white;
+}
+
+/* ------------------Extra small devices */
+
+@media screen and (max-width: 325px){
+  nav{
+      padding: 0.7rem .5rem;
+  }
+}
